@@ -34,7 +34,7 @@
 
 ## About The Project
 
-![Sreenshot of lehdermann.com](https://github.com/ArthurLehdermann/lehdermann.com/blob/main/public/images/screenshot-home-page.png)
+![Sreenshot of lehdermann.com](https://github.com/ArthurLehdermann/lehdermann.com/blob/main/public/images/screenshot-home-page.jpg)
 
 ### Built with
 
