@@ -1,16 +1,16 @@
 const SEO = {
-  title: 'Alvin Scheibe',
-  titleTemplate: '%s | Alvin Scheibe',
-  defaultTitle: 'Alvin Scheibe',
-  description: 'Freelance web developer. Browse programming tutorials and articles written by Alvin Scheibe.',
+  title: 'Arthur Lehdermann',
+  titleTemplate: '%s | Arthur Lehdermann',
+  defaultTitle: 'Arthur Lehdermann',
+  description: 'PHP developer',
   openGraph: {
     type: 'blog',
-    site_name: 'Alvin Scheibe\'s blog',
+    site_name: 'Arthur Lehdermann',
     locale: 'en_US',
-    url: 'alvinscheibe.dev',
+    url: 'lehdermann.com',
     profile: {
-      firstName: 'Alvin',
-      lastName: 'Scheibe'
+      firstName: 'Arthur',
+      lastName: 'Lehdermann'
     }
   }
 };
