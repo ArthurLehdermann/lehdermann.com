@@ -28,7 +28,7 @@ const AboutMe: NextPage = () => {
             <div className={'lg:col-span-5 md:col-span-6'}>
               <div className={'team p-12 rounded-md shadow-md dark:shadow-gray-800 dark:border-gray-700 bg-white dark:bg-slate-900 relative'}>
                 <div className={'absolute inset-0 bg-indigo-600/10 rounded-md -mt-[10px] -ml-[10px] h-[98%] w-[98%] -z-1'}></div>
-                <img src={'alvin-scheibe.jpg'} className={'h-32 w-32 rounded-full shadow-md dark:shadow-gray-800'} alt={'Alvin Scheibe'} />
+                <img src={'ArthurLehdermann.jpg'} className={'h-32 w-32 rounded-full shadow-md dark:shadow-gray-800'} alt={'ArthurLehdermann'} />
                 <div className={'content mt-4'}>
                   <a href="#" className={'text-lg font-medium hover:text-indigo-600 block'}>{siteConfig.author.name}</a>
                   <span className={'text-slate-400 block'}>Full Stack Web Developer</span>
