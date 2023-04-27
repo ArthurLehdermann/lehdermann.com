@@ -1,16 +1,16 @@
 <div id="top"></div>
 
 <div align="center">
-  <h3 align="center">Alvin Scheibe - Personal blog</h3>
+  <h3 align="center">Arthur Lehdermann - Personal blog</h3>
   <p align="center">
     Browse programming tutorials and articles.
     <br />
     <br />
-    <a href="https://alvinscheibe.com/">View Example</a>
+    <a href="https://lehdermann.com/">View Example</a>
     ·
-    <a href="https://github.com/alvinscheibe/blog/issues">Report Bug</a>
+    <a href="https://github.com/ArthurLehdermann/lehdermann.com/issues">Report Bug</a>
     ·
-    <a href="https://github.com/alvinscheibe/blog/issues">Request Feature</a>
+    <a href="https://github.com/ArthurLehdermann/lehdermann.com/issues">Request Feature</a>
   </p>
 </div>
 
@@ -34,7 +34,7 @@
 
 ## About The Project
 
-![Sreenshot of alvinscheibe.com](https://github.com/alvinscheibe/blog/blob/main/public/images/screenshot-home-page.png)
+![Sreenshot of alvinscheibe.com](https://github.com/ArthurLehdermann/lehdermann.com/blob/main/public/images/screenshot-home-page.png)
 
 ### Built with
 
@@ -55,7 +55,7 @@ Setup project locally for development.
 * Create or sign in to your [Hygraph](https://hygraph.com/) account.
 * Click the button below to clone the Hygraph project.
 
-[![Clone project](https://hygraph.com/button)](https://app.hygraph.com/clone/733af69f4e5a48868e4fab1b6934d4ff?name=Personal%20blog)
+[![Clone project](https://hygraph.com/button)](https://app.hygraph.com/clone/471ed4d4922043e2b3057c05211bdec3?name=Lehdermann.com)
 
 #### Blog set up
 * npm
