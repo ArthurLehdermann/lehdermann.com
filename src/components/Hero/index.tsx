@@ -28,8 +28,8 @@ export function Hero({ data }: HeroProps) {
               <div className={'lg:col-span-4 lg:block hidden lg:order-2'}></div>
 
               <div className={'lg:col-span-4 md:col-span-6 order-1 lg:order-3'}>
-                <p className={'text-2xl text-white font-bold lg:text-black lg:dark:text-white'}>👋 Hey! I am</p>
-                <h4 className={'lg:text-[64px] lg:leading-[1.1] text-[40px] font-bold lg:text-black lg:dark:text-white text-white mb-0'}>Alvin <br /> Scheibe</h4>
+                <p className={'text-2xl text-white font-bold lg:text-black lg:dark:text-white'}>What’s up? I am</p>
+                <h4 className={'lg:text-[64px] lg:leading-[1.1] text-[40px] font-bold lg:text-black lg:dark:text-white text-white mb-0'}>Arthur <br /> Lehdermann</h4>
               </div>
             </div>
           </div>
