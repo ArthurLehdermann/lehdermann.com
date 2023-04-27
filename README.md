@@ -55,7 +55,7 @@ Setup project locally for development.
 * Create or sign in to your [Hygraph](https://hygraph.com/) account.
 * Click the button below to clone the Hygraph project.
 
-[![Clone project](https://hygraph.com/button)](https://app.hygraph.com/clone/471ed4d4922043e2b3057c05211bdec3?name=Lehdermann.com)
+[![Clone project](https://app.hygraph.com/clone/6cf69dc18fa34914842de7cb5f53d73f?name=Lehdermann.com)
 
 #### Blog set up
 * npm
