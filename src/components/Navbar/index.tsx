@@ -29,7 +29,7 @@ export function Navbar() {
       <div className={'container'}>
         <a href={'/'} className={'logo'}>
           <p className={'font-bold text-black dark:text-white'} style={{minHeight: '17px', padding: '25px 0'}}>
-            <span className={'font-bold text-indigo-700'}>&lt;</span>alvinscheibe<span className={'text-indigo-700'}>&nbsp;/&gt;</span>
+            <span className={'font-bold text-indigo-700'}>&lt;</span>ArthurLehdermann<span className={'text-indigo-700'}>&nbsp;/&gt;</span>
           </p>
         </a>
 
