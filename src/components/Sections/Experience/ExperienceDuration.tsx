@@ -12,7 +12,7 @@ export function ExperienceDuration(props: ExperienceDurationProps) {
   return (
     <div className={'duration ' + props.classFloat + ' relative'}>
       {props.companyLogoPath?
-        <Image src={props.companyLogoPath} className={'rounded-full h-9 w-9 ' + (props.classImage?? '')} alt={props.companyName} /> :
+        <img src={props.companyLogoPath} className={'rounded-full h-9 w-9 ' + (props.classImage?? '')} alt={props.companyName} /> :
         <span className={'btn btn-icon rounded-full bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white'}>
           <CodeIcon className={'h-7 w-7'} />
         </span>

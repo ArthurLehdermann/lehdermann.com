@@ -26,7 +26,7 @@ export function BlogPostDetail({ coverImageUrl, coverImageFileName, tags, publis
   return (
     <div className={'lg:col-span-8 md:col-span-6'}>
       <div className={'p-6 rounded-md shadow dark:shadow-gray-800'}>
-        <Image src={coverImageUrl} className={'rounded-md'} alt={coverImageFileName} />
+        <img src={coverImageUrl} className={'rounded-md'} alt={coverImageFileName} />
 
         <div className={'grid md:grid-cols-2 grid-cols-1 mt-4 md:gap-[30px] gap-[15px]'}>
           <div className={'col-span-1'}>

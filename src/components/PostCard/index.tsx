@@ -19,7 +19,7 @@ type PostCardProps = {
 export default function PostCard({ post }: PostCardProps) {
   return (
     <div className={'blog relative rounded-md shadow dark:shadow-gray-800 overflow-hidden'}>
-      <Image src={post.imageUrl?? ''} />
+      <img src={post.imageUrl?? ''} />
 
       <div className={'content p-6'}>
         <PostTags tags={post.tags} />
