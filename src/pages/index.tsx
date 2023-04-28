@@ -5,6 +5,7 @@ import { LastestPostsDocument, PageDocument, useLastestPostsQuery, usePageQuery 
 import { ContactMe } from '../components/ContactMe';
 import { LatestPosts } from '../components/LatestPosts';
 import { Hero } from '../components/Hero';
+import GoogleAnalytics from '../components/GoogleAnalytics';
 import SeoPage from '../components/SeoPage';
 
 const Home: NextPage = () => {
