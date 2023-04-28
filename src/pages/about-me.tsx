@@ -30,7 +30,7 @@ const AboutMe: NextPage = () => {
                 <div className={'absolute inset-0 bg-indigo-600/10 rounded-md -mt-[10px] -ml-[10px] h-[98%] w-[98%] -z-1'}></div>
                 <img src={'ArthurLehdermann.jpeg'} className={'h-32 w-32 rounded-full shadow-md dark:shadow-gray-800'} alt={'ArthurLehdermann'} />
                 <div className={'content mt-4'}>
-                  <a href="#" className={'text-lg font-medium hover:text-indigo-600 block'}>{siteConfig.author.name}</a>
+                  <a className={'text-lg font-medium hover:text-indigo-600 block'}>{siteConfig.author.name}</a>
                   <span className={'text-slate-400 block'}>Full Stack Web Developer</span>
 
                   <p className={'text-slate-400 mt-2'}>Follow me on the links bellow:</p>
