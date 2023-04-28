@@ -1,9 +1,19 @@
-import ReactGA from "react-ga4";
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import ReactGA from 'react-ga4';
 
-export default function GoogleAnalytics() {
-  ReactGA.initialize(process.env.GOOGLE_ANALYTICS_ID as string);
+const GoogleAnalytics = () => {
+  const location = useLocation();
 
-  return (
-    <GoogleAnalytics/>
-  );
-}
+  useEffect(() => {
+    ReactGA.initialize(process.env.GOOGLE_ANALYTICS_ID as string);
+    ReactGA.send({
+      hitType: 'pageview',
+      page: location.pathname
+    });
+  }, [location]);
+
+  return null;
+};
+
+export default GoogleAnalytics;
