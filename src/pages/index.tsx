@@ -18,6 +18,8 @@ const Home: NextPage = () => {
 
   return (
     <>
+      <GoogleAnalytics />
+
       <SeoPage title={'Home'} />
 
       <Hero data={dataHomePage} />
