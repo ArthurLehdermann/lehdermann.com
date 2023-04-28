@@ -26,7 +26,7 @@ export default function SeoPage({ title, description }: SeoPageProps) {
                     type: 'image/jpeg',
                 }
             ],
-            siteName: 'Arthur Lehdermann',
+            site_name: 'Arthur Lehdermann',
         }}
         twitter={{
             handle: '@handle',
