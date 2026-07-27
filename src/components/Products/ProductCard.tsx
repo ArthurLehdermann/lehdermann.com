@@ -25,11 +25,15 @@ export function ProductCard({ product }: ProductCardProps) {
         <div className={'flex items-start justify-between gap-3 mb-4'}>
           <div
             className={[
-              'flex items-center justify-center h-12 w-12 rounded-md text-white shadow-md bg-gradient-to-br',
-              product.accent,
+              'flex items-center justify-center h-14 w-14 rounded-md shadow-sm border border-gray-100 dark:border-gray-700',
+              'bg-white dark:bg-slate-800 p-2',
             ].join(' ')}
           >
-            <i className={`mdi ${product.icon} text-2xl`} />
+            <img
+              src={product.logo}
+              alt={`${product.name} logo`}
+              className={'h-full w-full object-contain'}
+            />
           </div>
           <span className={'text-xs font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500'}>
             {product.category}

@@ -10,7 +10,7 @@ const siteConfig = {
     name: 'Arthur Lehdermann',
     email: 'ArthurLehdermann@gmail.com'
   },
-  siteVersion: '1.1.1'
+  siteVersion: '1.1.2'
 };
 
 export default siteConfig;

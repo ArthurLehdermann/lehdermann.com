@@ -5,8 +5,7 @@ export type Product = {
   description: string;
   url: string;
   category: string;
-  icon: string;
-  accent: string;
+  logo: string;
   featured?: boolean;
   highlight?: string;
 };
@@ -20,8 +19,7 @@ export const products: Product[] = [
       'Cardápio com QR Code, pedidos em tempo real, monitor de cozinha, impressão térmica e multi-tenant — cada restaurante no seu subdomínio.',
     url: 'https://painel.meugarcom.app',
     category: 'Gastronomia · SaaS',
-    icon: 'mdi-silverware-fork-knife',
-    accent: 'from-orange-500 to-amber-500',
+    logo: '/images/products/meu-garcom.png',
   },
   {
     id: 'minha-fila',
@@ -31,8 +29,7 @@ export const products: Product[] = [
       'Elimina senhas de papel: o público acompanha a posição no celular via QR Code ou link, com atualização ao vivo. Multi-empresa, sem hardware extra.',
     url: 'https://minha-fila.meugarcom.app',
     category: 'Gastronomia · SaaS',
-    icon: 'mdi-account-group',
-    accent: 'from-lime-500 to-green-600',
+    logo: '/images/products/minha-fila.png',
   },
   {
     id: 'gastronomia-local',
@@ -42,8 +39,7 @@ export const products: Product[] = [
       'Descubra restaurantes e cardápios locais. Marketplace que conecta o público à gastronomia da cidade, integrado ao ecossistema Meu Garçom.',
     url: 'https://gastronomialocal.com.br',
     category: 'Marketplace',
-    icon: 'mdi-store-marker',
-    accent: 'from-rose-500 to-pink-500',
+    logo: '/images/products/gastronomia-local.png',
   },
   {
     id: 'prompt-bi',
@@ -53,8 +49,7 @@ export const products: Product[] = [
       'Indicadores, rankings e relatórios em linguagem natural. Sem labirinto de filtros — você conversa com os números do negócio.',
     url: 'https://www.promptbi.com.br',
     category: 'BI · IA',
-    icon: 'mdi-chart-timeline-variant',
-    accent: 'from-violet-500 to-purple-600',
+    logo: '/images/products/prompt-bi.png',
   },
   {
     id: 'bot-bigworks',
@@ -64,8 +59,7 @@ export const products: Product[] = [
       'Pedidos, vendas e ordens de serviço pelo WhatsApp em linguagem natural. A IA entende o que você quer — não um menu infinito de opções numeradas.',
     url: 'https://bot.bigworks.com.br',
     category: 'WhatsApp · IA',
-    icon: 'mdi-robot-happy',
-    accent: 'from-indigo-500 to-blue-600',
+    logo: '/images/products/bot-bigworks.png',
     featured: true,
     highlight: 'Linguagem natural — não labirinto de opções',
   },
@@ -77,8 +71,7 @@ export const products: Product[] = [
       'Plataforma multi-tenant de Net Promoter Score: dashboard operacional, FalaE, Google Avaliações, análise de concorrência e insights com IA.',
     url: 'https://avalieai.com.br',
     category: 'NPS · Feedback',
-    icon: 'mdi-thumb-up',
-    accent: 'from-emerald-500 to-teal-500',
+    logo: '/images/products/avalie-ai.png',
   },
   {
     id: 'minha-foto',
@@ -88,8 +81,7 @@ export const products: Product[] = [
       'Crie álbuns online, compartilhe via link ou QR Code e venda fotos individuais. SaaS pensado para fotografia escolar e eventos.',
     url: 'https://minhafoto.bigworks.com.br',
     category: 'Fotografia · SaaS',
-    icon: 'mdi-camera',
-    accent: 'from-sky-500 to-cyan-500',
+    logo: '/images/products/minha-foto.png',
   },
   {
     id: 'app-marcenaria',
@@ -99,7 +91,6 @@ export const products: Product[] = [
       'Monte painéis em 3D, marque fita de borda, magnetize peças e exporte o pedido por WhatsApp ou CSV — com área, metragem de fita e quantidade. Funciona no celular.',
     url: 'https://marcenaria.morla.com.br',
     category: 'Marcenaria · Web App',
-    icon: 'mdi-hammer-wrench',
-    accent: 'from-amber-600 to-yellow-700',
+    logo: '/images/products/app-marcenaria.svg',
   },
 ];
