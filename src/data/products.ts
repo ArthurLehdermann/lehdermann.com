@@ -17,7 +17,7 @@ export const products: Product[] = [
     tagline: 'Cardápio digital e operação do restaurante',
     description:
       'Cardápio com QR Code, pedidos em tempo real, monitor de cozinha, impressão térmica e multi-tenant — cada restaurante no seu subdomínio.',
-    url: 'https://painel.meugarcom.app',
+    url: 'https://meugarcom.app',
     category: 'Gastronomia · SaaS',
     logo: '/images/products/meu-garcom.png',
   },
@@ -44,11 +44,11 @@ export const products: Product[] = [
   {
     id: 'prompt-bi',
     name: 'Prompt BI',
-    tagline: 'Pergunte aos seus dados',
+    tagline: 'Ask your data in plain English',
     description:
-      'Indicadores, rankings e relatórios em linguagem natural. Sem labirinto de filtros — você conversa com os números do negócio.',
+      'Metrics, rankings and reports in natural language. No maze of filters — talk to your business numbers and get visual answers instantly.',
     url: 'https://www.promptbi.com.br',
-    category: 'BI · IA',
+    category: 'BI · AI',
     logo: '/images/products/prompt-bi.png',
   },
   {

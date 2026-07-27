@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <Provider value={client}>
-      <ThemeProvider attribute={'class'}>
+      <ThemeProvider attribute={'class'} defaultTheme={'system'} enableSystem disableTransitionOnChange>
         <DefaultSeo {...SEO} />
         <Navbar />
         <Component {...pageProps} />
