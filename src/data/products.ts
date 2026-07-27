@@ -84,6 +84,16 @@ export const products: Product[] = [
     logo: '/images/products/minha-foto.png',
   },
   {
+    id: 'upcontroller',
+    name: 'UpController',
+    tagline: 'Gestão para oficinas mecânicas',
+    description:
+      'Ordens de serviço, clientes, veículos, financeiro e documentos via Google Drive. Focado em prestadores automotivos.',
+    url: 'https://upcontroller.app',
+    category: 'Automotivo · SaaS',
+    logo: '/images/products/upcontroller.svg',
+  },
+  {
     id: 'app-marcenaria',
     name: 'App Marcenaria',
     tagline: 'Projeto 3D e pedido de corte',
