@@ -24,6 +24,17 @@ export const products: Product[] = [
     accent: 'from-orange-500 to-amber-500',
   },
   {
+    id: 'minha-fila',
+    name: 'Minha Fila',
+    tagline: 'Fila virtual em tempo real',
+    description:
+      'Elimina senhas de papel: o público acompanha a posição no celular via QR Code ou link, com atualização ao vivo. Multi-empresa, sem hardware extra.',
+    url: 'https://minha-fila.meugarcom.app',
+    category: 'Gastronomia · SaaS',
+    icon: 'mdi-account-group',
+    accent: 'from-lime-500 to-green-600',
+  },
+  {
     id: 'gastronomia-local',
     name: 'Gastronomia Local',
     tagline: 'Hub gastronômico da sua região',
@@ -79,5 +90,16 @@ export const products: Product[] = [
     category: 'Fotografia · SaaS',
     icon: 'mdi-camera',
     accent: 'from-sky-500 to-cyan-500',
+  },
+  {
+    id: 'app-marcenaria',
+    name: 'App Marcenaria',
+    tagline: 'Projeto 3D e pedido de corte',
+    description:
+      'Monte painéis em 3D, marque fita de borda, magnetize peças e exporte o pedido por WhatsApp ou CSV — com área, metragem de fita e quantidade. Funciona no celular.',
+    url: 'https://marcenaria.morla.com.br',
+    category: 'Marcenaria · Web App',
+    icon: 'mdi-hammer-wrench',
+    accent: 'from-amber-600 to-yellow-700',
   },
 ];
