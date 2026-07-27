@@ -55,7 +55,7 @@ const AboutMe: NextPage = () => {
               <div className={'lg:ml-5'}>
                 <div className={'flex mb-4'}>
                   <span className={'text-indigo-600 text-2xl font-bold mb-0'}>
-                    <span className={'counter-value text-6xl font-bold'} data-target={'10'}>10</span>+
+                    <span className={'counter-value text-6xl font-bold'} data-target={'14'}>14</span>+
                   </span>
                   <span className={'self-end font-medium ml-2'}>Years <br /> Experience</span>
                 </div>

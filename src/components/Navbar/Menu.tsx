@@ -39,6 +39,7 @@ export function Menu() {
       <div id={'navigation'}>
         <ul className={'navigation-menu'}>
           <li><a href={'/'} className={'sub-menu-item'}>Home</a></li>
+          <li><a href={'/#products'} className={'sub-menu-item'}>Products</a></li>
           <li><a href={'/about-me'} className={'sub-menu-item'}>About me</a></li>
           <li><a href={'/blog'} className={'sub-menu-item'}>Blog</a></li>
         </ul>

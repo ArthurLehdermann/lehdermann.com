@@ -10,7 +10,7 @@ export function ContactMe() {
         </h3>
 
         <p className={'text-slate-400 max-w-xl mx-auto'}>
-          I&apos;m a PHP developer. Let&apos;s discuss your needs and see how I can help you?
+          Full-stack developer building SaaS for restaurants, retail and automation. Let&apos;s talk about your project or one of the products above.
         </p>
 
         <div className={'mt-6'}>

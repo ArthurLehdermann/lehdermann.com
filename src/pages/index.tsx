@@ -4,6 +4,7 @@ import { client, ssrCache } from '../lib/urql';
 import { LastestPostsDocument, PageDocument, useLastestPostsQuery, usePageQuery } from '../generated/graphql';
 import { ContactMe } from '../components/ContactMe';
 import { LatestPosts } from '../components/LatestPosts';
+import { Products } from '../components/Products';
 import { Hero } from '../components/Hero';
 import GoogleAnalytics from '../components/GoogleAnalytics';
 import SeoPage from '../components/SeoPage';
@@ -26,7 +27,7 @@ const Home: NextPage = () => {
 
       <div className={'relative'}>
         <div className={'absolute block w-full h-auto bottom-[25px] z-1 left-0'}>
-          <a href={'#latest-posts'}>
+          <a href={'#products'}>
             <i className={'mdi mdi-arrow-down absolute top-0 left-0 right-0 text-center inline-flex items-center justify-center rounded-full bg-white dark:bg-slate-900 h-12 w-12 mx-auto shadow-md dark:shadow-gray-800'}></i>
           </a>
         </div>
@@ -37,6 +38,8 @@ const Home: NextPage = () => {
           </svg>
         </div>
       </div>
+
+      <Products />
 
       <section className={'relative md:py-24 py-16'} id={'latest-posts'}>
         <div className={'container'}>
