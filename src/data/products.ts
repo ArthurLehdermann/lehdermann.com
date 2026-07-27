@@ -94,6 +94,16 @@ export const products: Product[] = [
     logo: '/images/products/upcontroller.jpg',
   },
   {
+    id: 'elo',
+    name: 'Elo',
+    tagline: 'Links, redes e programa ao vivo',
+    description:
+      'Página de links feita para o Brasil. Bloco ao vivo com contador que vira "no ar" sozinho, cliques rastreados e abre rápido no celular.',
+    url: 'https://elo.bigworks.com.br',
+    category: 'Link in bio',
+    logo: '/images/products/elo.svg',
+  },
+  {
     id: 'app-marcenaria',
     name: 'App Marcenaria',
     tagline: 'Projeto 3D e pedido de corte',
