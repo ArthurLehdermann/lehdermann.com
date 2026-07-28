@@ -122,7 +122,7 @@ export const products: Product[] = [
       'Página de links feita para o Brasil. Bloco ao vivo com contador que vira "no ar" sozinho, cliques rastreados e abre rápido no celular.',
     url: 'https://ielos.com.br',
     category: 'Link in bio',
-    logo: '/images/products/elo.svg',
+    logo: '/images/products/ielos.png',
   },
   {
     id: 'app-marcenaria',
