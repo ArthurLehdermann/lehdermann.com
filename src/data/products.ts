@@ -84,6 +84,27 @@ export const products: Product[] = [
     logo: '/images/products/minha-foto.png',
   },
   {
+    id: 'imageup',
+    name: 'ImageUp',
+    tagline: 'Sua imagem, no próximo nível',
+    description:
+      'Otimização e processamento de imagens para web e operação. Pipeline pensado para volume e qualidade.',
+    url: 'https://imageup.vps.bigworks.com.br',
+    category: 'Imagem · SaaS',
+    logo: '/images/products/imageup.png',
+  },
+  {
+    id: 'lia',
+    name: 'Lia',
+    tagline: 'Secretária virtual administrativa',
+    description:
+      'NFS-e, clientes, serviços e assinaturas no painel. WhatsApp em linguagem natural como canal principal.',
+    url: 'https://lia.bigworks.com.br',
+    category: 'Admin · WhatsApp',
+    logo: '/images/products/lia.png',
+    highlight: 'Linguagem natural',
+  },
+  {
     id: 'upcontroller',
     name: 'UpController',
     tagline: 'Gestão para oficinas mecânicas',
@@ -94,7 +115,7 @@ export const products: Product[] = [
     logo: '/images/products/upcontroller.jpg',
   },
   {
-    id: 'elo',
+    id: 'ielos',
     name: 'ielos',
     tagline: 'Links, redes e programa ao vivo',
     description:
