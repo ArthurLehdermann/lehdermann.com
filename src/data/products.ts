@@ -71,7 +71,7 @@ export const products: Product[] = [
       'Plataforma multi-tenant de Net Promoter Score: dashboard operacional, FalaE, Google Avaliações, análise de concorrência e insights com IA.',
     url: 'https://avalieai.com.br',
     category: 'NPS · Feedback',
-    logo: '/images/products/avalie-ai.png',
+    logo: '/images/products/avalie-ai-icon.png',
   },
   {
     id: 'minha-foto',
@@ -91,7 +91,7 @@ export const products: Product[] = [
       'Otimização e processamento de imagens para web e operação. Pipeline pensado para volume e qualidade.',
     url: 'https://imageup.vps.bigworks.com.br',
     category: 'Imagem · SaaS',
-    logo: '/images/products/imageup.png',
+    logo: '/images/products/imageup-icon.png',
   },
   {
     id: 'lia',
